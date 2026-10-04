@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مطعم شوكة | بيتزا ومأكولات شهية - الصالحية الجديدة</title>
+<meta name="description" content="مطعم شوكة - بيتزا ومأكولات شهية في الصالحية الجديدة. توصيل سريع، مفتوح حتى 4 صباحًا.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700;900&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Top Info Bar ===== -->
+<div class="top-info-bar">
+  <div class="container top-info-inner">
+    <div class="top-info-right">
+      <span><i class="fas fa-map-marker-alt"></i> مول النيل بلازا، الصالحية الجديدة</span>
+      <span class="divider">|</span>
+      <span><i class="fas fa-clock"></i> يوميًا من 12:00 ظهرًا حتى 4:00 صباحًا</span>
+    </div>
+    <div class="top-info-left">
+      <a href="tel:01007760265"><i class="fas fa-phone"></i> 01007760265</a>
+      <span class="divider">|</span>
+      <a href="mailto:info@shoka.com"><i class="fas fa-envelope"></i> info@shoka.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Navbar ===== -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#" class="brand">
+      <span class="brand-icon">🍕</span>
+      <span class="brand-text">
+        <span class="brand-name">SHOKA</span>
+        <span class="brand-sub">RESTAURANT</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">بيت</a>
+      <a href="#menu">قوائم الطعام</a>
+      <a href="#about">معلومات عنا</a>
+      <a href="#popular">الأكثر طلبًا</a>
+      <a href="#contact">اتصال</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="cart-icon-btn" id="openCartBtn" aria-label="السلة">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+      <a href="#contact" class="btn-gold">اطلب الآن</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="hero-sub" data-aos>مطعم شوكة</span>
+    <div class="ornament"><span></span><i class="fas fa-diamond"></i><span></span></div>
+    <h1 class="hero-title">طعم يستاهل <br><em>التجربة</em></h1>
+    <p class="hero-desc">بيتزا ومأكولات شهية تُحضّر بعناية وتوصلك لحد بابك</p>
+    <div class="hero-buttons">
+      <a href="#menu" class="btn-gold btn-lg">اطلب الآن <i class="fas fa-arrow-left"></i></a>
+      <a href="#about" class="btn-outline-gold btn-lg">اكتشف المزيد</a>
+    </div>
+  </div>
+
+  <a href="#menu" class="hero-scroll">
+    <i class="fas fa-chevron-down"></i>
+  </a>
+
+  <div class="hero-side-badge">
+    <div class="hero-badge-circle">
+      <span>مفتوح</span>
+      <strong>حتى 4ص</strong>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Services (3 cards) ===== -->
+<section class="section services-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-sub">نكهات تليق بالملوك</span>
+      <div class="ornament"><span></span><i class="fas fa-diamond"></i><span></span></div>
+      <h2 class="section-title">نقدم خدمات عالية الجودة</h2>
+      <p class="section-text">لوريم إيبسوم هو ببساطة نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد كان لوريم إيبسوم النص القياسي في هذه الصناعة منذ القرن الخامس عشر.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80" alt="إفطار" loading="lazy">
+          <div class="img-frame"></div>
+        </div>
+        <h3>إفطار</h3>
+        <a href="#menu" class="link-gold">عرض القائمة <i class="fas fa-arrow-left"></i></a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1608039755401-742074f0548d?w=600&q=80" alt="مقبلات" loading="lazy">
+          <div class="img-frame"></div>
+        </div>
+        <h3>مقبلات</h3>
+        <a href="#menu" class="link-gold">عرض القائمة <i class="fas fa-arrow-left"></i></a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600&q=80" alt="مشروبات" loading="lazy">
+          <div class="img-frame"></div>
+        </div>
+        <h3>مشروبات</h3>
+        <a href="#menu" class="link-gold">عرض القائمة <i class="fas fa-arrow-left"></i></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Story Section ===== -->
+<section class="section story-section" id="about">
+  <div class="container story-grid">
+    <div class="story-text">
+      <span class="section-sub">قصتنا</span>
+      <div class="ornament ornament-right"><span></span><i class="fas fa-diamond"></i><span></span></div>
+      <h2 class="section-title">كل نكهة تحكي قصة</h2>
+      <p>لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. وقد كان لوريم إيبسوم النص القياسي في هذه الصناعة منذ أن قام طابع غير معروف بأخذ مجموعة من الأحرف وخلطها لإنشاء كتاب عينة من الأحرف.</p>
+      <div class="story-contact">
+        <span>احجز عبر الاتصال</span>
+        <a href="tel:01007760265" class="story-phone">0100 776 0265</a>
+      </div>
+      <a href="#" class="btn-outline-gold">اقرأ المزيد</a>
+    </div>
+
+    <div class="story-images">
+      <div class="story-img story-img-1">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700&q=80" alt="داخل المطعم" loading="lazy">
+      </div>
+      <div class="story-img story-img-2">
+        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600&q=80" alt="الشيف" loading="lazy">
+      </div>
+      <div class="since-badge">
+        <span>SINCE</span>
+        <strong>2020</strong>
+        <small>QUALITY FOOD</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Features (4 icons) ===== -->
+<section class="section features-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-sub">قوتنا</span>
+      <div class="ornament"><span></span><i class="fas fa-diamond"></i><span></span></div>
+      <h2 class="section-title">قوتنا</h2>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-seedling"></i></div>
+        <h3>طعام صحي</h3>
+        <p>لوريم إيبسوم هو مجرد طباعة وتنسيق. لوريم إيبسوم هو مجرد طباعة وتنسيق.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-couch"></i></div>
+        <h3>بيئة منعشة</h3>
+        <p>لوريم إيبسوم هو مجرد طباعة وتنسيق. لوريم إيبسوم هو مجرد طباعة وتنسيق.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-user-tie"></i></div>
+        <h3>طهاة ماهرون</h3>
+        <p>لوريم إيبسوم هو مجرد طباعة وتنسيق. لوريم إيبسوم هو مجرد طباعة وتنسيق.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fas fa-glass-cheers"></i></div>
+        <h3>فعالية وحفل</h3>
+        <p>لوريم إيبسوم هو مجرد طباعة وتنسيق. لوريم إيبسوم هو مجرد طباعة وتنسيق.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Menu (2-column list style) ===== -->
+<section class="section menu-section" id="menu">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-sub">تشكيلة خاصة</span>
+      <div class="ornament"><span></span><i class="fas fa-diamond"></i><span></span></div>
+      <h2 class="section-title">قائمة طعام شهية</h2>
+    </div>
+
+    <!-- Tabs -->
+    <div class="menu-tabs" id="menuTabs"></div>
+
+    <!-- Menu Grid -->
+    <div class="menu-list" id="menuList"></div>
+
+    <p class="menu-note">مساءً من الساعة 9:00 مساءً خلال فصل الشتاء يوميًا ابتداءً من</p>
+    <div class="menu-cta">
+      <a href="#menu" class="btn-outline-gold">عرض جميع القوائم</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Popular ===== -->
+<section class="section popular-section" id="popular">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-sub">الأكثر طلبًا</span>
+      <div class="ornament"><span></span><i class="fas fa-diamond"></i><span></span></div>
+      <h2 class="section-title">الأكثر طلبًا من عملائنا</h2>
+    </div>
+    <div class="menu-list" id="popularList"></div>
+  </div>
+</section>
+
+<!-- ===== Featured Dish ===== -->
+<section class="section featured-dish">
+  <div class="featured-grid">
+    <div class="featured-img">
+      <img src="https://images.unsplash.com/photo-1608039755401-742074f0548d?w=900&q=80" alt="طبق مميز" loading="lazy">
+    </div>
+    <div class="featured-info">
+      <span class="section-sub"><i class="fas fa-star"></i> طبق مميز</span>
+      <div class="ornament ornament-right"><span></span><i class="fas fa-diamond"></i><span></span></div>
+      <h2 class="featured-title">بيتزا شوكة الخاصة</h2>
+      <p>لوريم إيبسوم هو ببساطة نص شكلي (أو نص تجريبي) يستخدم في صناعة الطباعة والتنضيد. وقد كان لوريم إيبسوم النص القياسي في هذه الصناعة منذ أن قام طابع غير معروف بأخذ قالب من الأحرف.</p>
+      <div class="featured-price">
+        <span class="price-old">200 جنيه</span>
+        <span class="price-new">150 جنيه</span>
+      </div>
+      <button class="btn-outline-gold" onclick="Cart.add({id:'featured1',name:'بيتزا شوكة الخاصة',price:150,image:'https://images.unsplash.com/photo-1608039755401-742074f0548d?w=400&q=80'})">
+        <i class="fas fa-shopping-bag"></i> أضف للسلة
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact / Booking ===== -->
+<section class="section contact-section" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-form-wrap">
+      <div class="section-head section-head-right">
+        <span class="section-sub">اطلب الآن</span>
+        <div class="ornament ornament-right"><span></span><i class="fas fa-diamond"></i><span></span></div>
+        <h2 class="section-title">الحجز عبر الإنترنت</h2>
+        <p class="section-text">أو املأ نموذج الطلب بالرقم <a href="tel:01007760265" class="phone-link">0100 776 0265</a>، اتصل على</p>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" placeholder="اسمك" required>
+          <input type="tel" placeholder="رقم التليفون" required>
+        </div>
+        <div class="form-row form-row-3">
+          <select><option>شخص واحد</option><option>شخصان</option><option>3 أشخاص</option><option>4 أشخاص</option></select>
+          <input type="text" placeholder="MM/DD/YYYY">
+          <input type="text" placeholder="08:00 صباحًا">
+        </div>
+        <textarea rows="5" placeholder="رسالة"></textarea>
+        <button type="submit" class="btn-gold btn-block">احجز طاولة</button>
+      </form>
+    </div>
+
+    <aside class="contact-info">
+      <h3 class="contact-info-title">اتصل بنا</h3>
+      <div class="ornament"><span></span><i class="fas fa-diamond"></i><span></span></div>
+
+      <div class="info-block">
+        <h4>طلب حجز</h4>
+        <a href="tel:01007760265" class="info-phone">0100 776 0265</a>
+      </div>
+
+      <div class="info-block">
+        <h4>موقع</h4>
+        <p>مول النيل بلازا، الظهير الصحراوي،<br>الصالحية الجديدة، محافظة الشرقية</p>
+      </div>
+
+      <div class="info-block">
+        <h4>وقت الغداء</h4>
+        <p>من الاثنين إلى الأحد<br>الساعة 12:00 ظهرًا حتى 6:00 مساءً</p>
+      </div>
+
+      <div class="info-block">
+        <h4>وقت العشاء</h4>
+        <p>من الاثنين إلى الأحد<br>من الساعة 6:00 مساءً إلى 4:00 صباحًا</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="footer-overlay"></div>
+  <div class="container footer-inner">
+    <div class="footer-card">
+      <div class="footer-logo">
+        <span class="brand-icon">🍕</span>
+        <span class="brand-text">
+          <span class="brand-name">SHOKA</span>
+          <span class="brand-sub">RESTAURANT</span>
+        </span>
+      </div>
+
+      <p class="footer-addr">مول النيل بلازا، الظهير الصحراوي، الصالحية الجديدة، محافظة الشرقية، مصر</p>
+      <p class="footer-mail">booking@shoka.com</p>
+      <p class="footer-phone">طلب حجز: 0100 776 0265</p>
+      <p class="footer-hours">مفتوح من الساعة 12:00 ظهرًا حتى الساعة 4:00 صباحًا</p>
+
+      <div class="ornament"><span></span><i class="fas fa-diamond"></i><span></span></div>
+
+      <h4 class="footer-news-title">احصل على الأخبار والعروض</h4>
+      <p class="footer-news-sub">خصم 25% اشترك معنا واحصل على</p>
+
+      <form class="newsletter" onsubmit="event.preventDefault(); this.reset(); alert('تم الاشتراك ✅');">
+        <input type="email" placeholder="بريدك الإلكتروني" required>
+        <button type="submit" class="btn-gold">يشترك</button>
+      </form>
+    </div>
+
+    <div class="footer-links">
+      <ul>
+        <li><a href="#home">بيت</a></li>
+        <li><a href="#menu">قوائم الطعام</a></li>
+        <li><a href="#about">معلومات عنا</a></li>
+        <li><a href="#popular">الأكثر طلبًا</a></li>
+        <li><a href="#contact">اتصال</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i> فيسبوك</a></li>
+        <li><a href="https://wa.me/201007760265" target="_blank"><i class="fab fa-whatsapp"></i> واتساب</a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i> انستغرام</a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i> تويتر</a></li>
+        <li><a href="#"><i class="fas fa-map-marked-alt"></i> خرائط جوجل</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 مطعم شوكة - جميع الحقوق محفوظة</p>
+  </div>
+</footer>
+
+<!-- ===== Floating Cart Drawer ===== -->
+<div class="cart-drawer-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+  <header class="cart-drawer-header">
+    <div>
+      <h3>سلة الطلبات</h3>
+      <span id="cartItemsCount">0 منتج</span>
+    </div>
+    <button class="cart-close" id="closeCartBtn" aria-label="إغلاق"><i class="fas fa-times"></i></button>
+  </header>
+
+  <div class="cart-drawer-body" id="cartBody">
+    <!-- filled by JS -->
+  </div>
+
+  <footer class="cart-drawer-footer" id="cartFooter" style="display:none;">
+    <div class="cart-summary-row">
+      <span>المجموع الفرعي</span>
+      <span id="cartSubtotal">0 جنيه</span>
+    </div>
+    <div class="cart-summary-row">
+      <span>رسوم التوصيل</span>
+      <span id="cartDelivery">15 جنيه</span>
+    </div>
+    <div class="cart-summary-row cart-total">
+      <span>الإجمالي</span>
+      <span id="cartTotal">0 جنيه</span>
+    </div>
+    <button class="btn-gold btn-block" id="checkoutBtn">
+      <i class="fab fa-whatsapp"></i> إتمام الطلب عبر واتساب
+    </button>
+  </footer>
+</aside>
+
+<!-- ===== Order Form Modal ===== -->
+<div class="modal-overlay" id="orderModal">
+  <div class="modal-box">
+    <header class="modal-head">
+      <h3>إتمام الطلب</h3>
+      <button class="cart-close" id="closeOrderModal" aria-label="إغلاق"><i class="fas fa-times"></i></button>
+    </header>
+    <form id="orderForm" class="modal-body">
+      <div class="form-row">
+        <input type="text" id="oName" placeholder="اسمك *" required>
+        <input type="tel" id="oPhone" placeholder="رقم الهاتف *" required pattern="01[0-9]{9}">
+      </div>
+
+      <label class="field-label">نوع الطلب</label>
+      <div class="order-type-group">
+        <label class="order-type"><input type="radio" name="otype" value="توصيل" checked><span><i class="fas fa-truck"></i> توصيل</span></label>
+        <label class="order-type"><input type="radio" name="otype" value="استلام"><span><i class="fas fa-store"></i> استلام</span></label>
+        <label class="order-type"><input type="radio" name="otype" value="داخل المطعم"><span><i class="fas fa-utensils"></i> داخل المطعم</span></label>
+      </div>
+
+      <div id="deliveryBlock">
+        <input type="text" id="oAddress" placeholder="العنوان بالتفصيل *">
+        <input type="text" id="oArea" placeholder="المنطقة *">
+      </div>
+
+      <div id="dineinBlock" style="display:none">
+        <input type="number" id="oTable" placeholder="رقم الطاولة *" min="1">
+      </div>
+
+      <textarea id="oNotes" rows="2" placeholder="ملاحظات إضافية"></textarea>
+
+      <div class="order-mini-summary" id="orderMiniSummary"></div>
+
+      <button type="submit" class="btn-gold btn-block">
+        <i class="fab fa-whatsapp"></i> تأكيد وإرسال على واتساب
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- ===== Toast ===== -->
+<div class="toast" id="toast"></div>
+
+<!-- ===== Floating Buttons ===== -->
+<a href="tel:01007760265" class="float-btn float-phone" aria-label="اتصال"><i class="fas fa-phone"></i></a>
+<a href="https://wa.me/201007760265" target="_blank" class="float-btn float-wa" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+<button class="float-btn float-top" id="scrollTop" aria-label="أعلى الصفحة"><i class="fas fa-chevron-up"></i></button>
+
+<!-- ===== Sticky Reserve Badge (like images) ===== -->
+<button class="reserve-badge" id="reserveBadge">
+  <i class="fas fa-utensils"></i>
+  <span>احجز<br>طاولة</span>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
